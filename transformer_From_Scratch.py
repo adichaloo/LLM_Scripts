@@ -86,8 +86,7 @@ class Transformer(nn.Module):
         # raise Exception("Implement me")
 
 
-# Your implementation of the Transformer layer goes here. It should take vectors and return the same number of vectors
-# of the same length, applying self-attention, the feedforward layer, etc.
+
 class TransformerLayer(nn.Module):
     def __init__(self, d_model, d_internal):
         """

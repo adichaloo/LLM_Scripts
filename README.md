@@ -9,7 +9,6 @@ Medquad QA (Question/Answering dataset) and AI2’s Reasoning Challenge (ARC) da
 4. baseline_mistral_on_medmcqa -> Finetuning the Mistral 7B model using QLora on a subset of MedMCQA (Multi choice question answering)dataset
 
 ## Transformer from Scratch
-Assignment for developing a single attention head from scratch to predict, for each position in the string, how many times the character at that position occurred previously, maxing out at 2. 
-Here a character level tokenization has been used .
+Assignment for developing a transformer (multi-head attention) from scratch to predict, for each position in the string, how many times the character at that position occurred previously, maxing out at 2. Here a character level tokenization has been used.
 
 
